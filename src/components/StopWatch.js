@@ -12,6 +12,9 @@ const StopWatch = () => {
         clearInterval(timerIdRef.current)
         timerIdRef.current = 0;
     };
+    const handleReset =()=>{
+        setCount(0)
+    }
    
     useEffect(() => {
                 return () => clearInterval(timerIdRef.current);
@@ -23,10 +26,10 @@ const StopWatch = () => {
          <h1 id="timer" >Timer: {count}s</h1><br></br><br></br>
          <div id="btn" >
         <button onClick={handleStart} className="btn btn-outline-success btn-lg">Start</button>{' '}{' '}
-        <button onClick={handleStop} className="btn btn-outline-danger btn-lg">Stop</button>
+        <button onClick={handleStop} className="btn btn-outline-warning btn-lg">Stop</button>{' '}{' '}
+        <button onClick={handleReset} className="btn btn-outline-danger btn-lg">Reset</button>
         </div>
     </div>
-    <small className="text-white" >made by Awais Saddiqui</small>
     </div>
   )
 }
