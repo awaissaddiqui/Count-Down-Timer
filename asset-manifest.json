@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.86731acf.css",
-    "main.js": "/static/js/main.053af54d.js",
-    "static/js/787.6b074461.chunk.js": "/static/js/787.6b074461.chunk.js",
-    "index.html": "/index.html",
-    "main.86731acf.css.map": "/static/css/main.86731acf.css.map",
-    "main.053af54d.js.map": "/static/js/main.053af54d.js.map",
-    "787.6b074461.chunk.js.map": "/static/js/787.6b074461.chunk.js.map"
+    "main.css": "/Count-Down-Timer/static/css/main.86731acf.css",
+    "main.js": "/Count-Down-Timer/static/js/main.9196cfce.js",
+    "static/js/787.6b074461.chunk.js": "/Count-Down-Timer/static/js/787.6b074461.chunk.js",
+    "index.html": "/Count-Down-Timer/index.html",
+    "main.86731acf.css.map": "/Count-Down-Timer/static/css/main.86731acf.css.map",
+    "main.9196cfce.js.map": "/Count-Down-Timer/static/js/main.9196cfce.js.map",
+    "787.6b074461.chunk.js.map": "/Count-Down-Timer/static/js/787.6b074461.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86731acf.css",
-    "static/js/main.053af54d.js"
+    "static/js/main.9196cfce.js"
   ]
 }
